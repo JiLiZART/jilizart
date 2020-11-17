@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm Nikolay</h1>
 <h3 align="center">A passionate js developer from Russia</h3>
 
-- 🔭 I’m currently working on [Musescore](musescore.com)
+- 🔭 I’m currently working on [Musescore](https://musescore.com)
 
 - 🌱 I’m currently learning **Rust**
 
-- 👨‍💻 All of my projects are available at [artkost.ru](artkost.ru)
+- 👨‍💻 All of my projects are available at [artkost.ru](https://artkost.ru)
 
 - 💬 Ask me about **react, vue**
 
