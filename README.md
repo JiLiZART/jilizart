@@ -7,15 +7,15 @@
 
 <p align="left"> <a href="https://twitter.com/jilizart" target="blank"><img src="https://img.shields.io/twitter/follow/jilizart?logo=twitter&style=for-the-badge" alt="jilizart" /></a> </p>
 
-- 🔭 I’m currently working on [Musescore](musescore.com)
+- 🔭 I’m currently working on [Musescore](https://musescore.com)
 
 - 🌱 I’m currently learning **Rust**
 
-- 👯 I’m looking to collaborate on [Skillsbord](skillsbord.com)
+- 👯 I’m looking to collaborate on [Skillsbord](https://skillsbord.com)
 
-- 👨‍💻 All of my projects are available at [artkost.ru](artkost.ru)
+- 👨‍💻 All of my projects are available at [artkost.ru](https://artkost.ru/?from=github)
 
-- 💬 Ask me about **react, vue**
+- 💬 Ask me about **React, Vue**
 
 - 📫 How to reach me **jilizart@gmail.com**
 
