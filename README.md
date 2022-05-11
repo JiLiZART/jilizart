@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Nikolay</h1>
-<h3 align="center">A passionate js developer from Russia</h3>
+<h3 align="center">A passionate about JS Development</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jilizart&label=Profile%20views&color=0e75b6&style=flat" alt="jilizart" /> </p>
 
@@ -7,13 +7,7 @@
 
 <p align="left"> <a href="https://twitter.com/jilizart" target="blank"><img src="https://img.shields.io/twitter/follow/jilizart?logo=twitter&style=for-the-badge" alt="jilizart" /></a> </p>
 
-- 🔭 I’m currently working on [Musescore](https://musescore.com)
-
 - 🌱 I’m currently learning **Rust**
-
-- 👯 I’m looking to collaborate on [Skillsbord](https://skillsbord.com)
-
-- 👨‍💻 All of my projects are available at [artkost.ru](https://artkost.ru/?from=github)
 
 - 💬 Ask me about **React, Vue**
 
