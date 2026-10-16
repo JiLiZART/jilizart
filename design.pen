@@ -1,0 +1,1279 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "PbGjX",
+      "x": 0,
+      "y": 0,
+      "name": "Profile README",
+      "clip": true,
+      "width": 976,
+      "fill": "$bg",
+      "layout": "vertical",
+      "gap": 40,
+      "padding": 48,
+      "children": [
+        {
+          "type": "frame",
+          "id": "FSVuJ",
+          "name": "Hero",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$gap",
+          "children": [
+            {
+              "type": "frame",
+              "id": "zHYOK",
+              "name": "Row 1",
+              "width": "fill_container",
+              "gap": "$gap",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "FnIAJ",
+                  "name": "Intro Card",
+                  "width": 580,
+                  "height": 250,
+                  "fill": "$card",
+                  "cornerRadius": "$r-card",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    36,
+                    34
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K8rF37",
+                      "name": "Eyebrow",
+                      "fill": "$muted",
+                      "content": "HEY, I'M NIKOLAY 👋",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "600",
+                      "letterSpacing": 0.7
+                    },
+                    {
+                      "type": "text",
+                      "id": "SN88X",
+                      "name": "Headline",
+                      "fill": "$ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "JavaScript Developer",
+                      "lineHeight": 1.12,
+                      "fontFamily": "$font",
+                      "fontSize": 42,
+                      "fontWeight": "700",
+                      "letterSpacing": -1.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "i8xk2Q",
+                      "name": "Spacer",
+                      "width": 1,
+                      "height": 14
+                    },
+                    {
+                      "type": "text",
+                      "id": "RMxMT",
+                      "name": "Bio",
+                      "fill": "$body",
+                      "textGrowth": "fixed-width",
+                      "width": 450,
+                      "content": "I specialize in building exceptional web applications and efficient JavaScript solutions. Currently focusing on local-first apps and open-source contributions. ✨",
+                      "lineHeight": 1.55,
+                      "fontFamily": "$font",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JKrEs",
+                  "name": "Photo Card",
+                  "clip": true,
+                  "width": 288,
+                  "height": 250,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "assets/profile.jpeg",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": "$r-card"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dgZEd",
+              "name": "Row 2",
+              "width": "fill_container",
+              "gap": "$gap",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bPa9L",
+                  "name": "JS Card",
+                  "width": "fill_container",
+                  "height": 134,
+                  "fill": "$js-yellow",
+                  "cornerRadius": "$r-card",
+                  "stroke": "$js-border",
+                  "strokeWidth": 1,
+                  "gap": 18,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BH3tu",
+                      "name": "JS",
+                      "fill": "$ink",
+                      "content": "JS",
+                      "lineHeight": 1,
+                      "fontFamily": "$font",
+                      "fontSize": 58,
+                      "fontWeight": "800",
+                      "letterSpacing": -2.5
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WN4K0",
+                      "name": "JS Text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "L6lNq3",
+                          "name": "Label",
+                          "fill": "#1D1D1F99",
+                          "content": "Stack",
+                          "fontFamily": "$font",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "DOMaG",
+                          "name": "Value",
+                          "fill": "$ink",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Primary language since 2013",
+                          "lineHeight": 1.35,
+                          "fontFamily": "$font",
+                          "fontSize": 14,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w2LLgU",
+                  "name": "Frameworks Card",
+                  "width": "fill_container",
+                  "height": 134,
+                  "fill": "$card",
+                  "cornerRadius": "$r-card",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oVYgp",
+                      "name": "Label",
+                      "fill": "$muted",
+                      "content": "Frameworks",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "b95PH",
+                      "name": "List",
+                      "fill": "$ink",
+                      "content": "React · Next · Node",
+                      "fontFamily": "$font",
+                      "fontSize": 17,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "w17VDf",
+                      "name": "Muted",
+                      "fill": "$muted",
+                      "content": "Redux · Vite · Jest · Rust 🦀",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ICwyA",
+                  "name": "Currently Card",
+                  "width": "fill_container",
+                  "height": 134,
+                  "fill": "$ink",
+                  "cornerRadius": "$r-card",
+                  "stroke": "#2C2C2E",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "G8WFL",
+                      "name": "Label",
+                      "fill": "#8E8E93",
+                      "content": "Currently",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "EehXv",
+                      "name": "Title",
+                      "fill": "#FFFFFF",
+                      "content": "Local-first apps 🦀",
+                      "fontFamily": "$font",
+                      "fontSize": 19,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "Mo3M6",
+                      "name": "Desc",
+                      "fill": "#98989D",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Rust + TypeScript — shipping to desktop, browser and CLI.",
+                      "lineHeight": 1.45,
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RBCDN",
+              "name": "Row 3",
+              "width": "fill_container",
+              "gap": "$gap",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "uFp3Y",
+                  "name": "Years Card",
+                  "width": "fill_container",
+                  "height": 134,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 135,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#EAF7EE",
+                        "position": 0
+                      },
+                      {
+                        "color": "#F3F9F0",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": "$r-card",
+                  "stroke": "#DCEBE0",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Sr5IE",
+                      "name": "Years Row",
+                      "gap": 5,
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "gTdoU",
+                          "name": "Number",
+                          "fill": "$ink",
+                          "content": "11",
+                          "lineHeight": 1,
+                          "fontFamily": "$font",
+                          "fontSize": 42,
+                          "fontWeight": "700",
+                          "letterSpacing": -1.8
+                        },
+                        {
+                          "type": "text",
+                          "id": "ytS0p",
+                          "name": "Unit",
+                          "fill": "$body",
+                          "content": "years",
+                          "lineHeight": 1.6,
+                          "fontFamily": "$font",
+                          "fontSize": 15,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pjHNK",
+                      "name": "Caption",
+                      "fill": "$muted",
+                      "content": "building for the web",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vb6JK",
+                  "name": "Codewars Card",
+                  "width": "fill_container",
+                  "height": 134,
+                  "fill": "#DFF1FB",
+                  "cornerRadius": "$r-card",
+                  "stroke": "#C9E6F5",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 7,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s8DEh",
+                      "name": "Label",
+                      "fill": "#5A7383",
+                      "content": "Codewars",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Pbnmz",
+                      "name": "Rank",
+                      "fill": "$ink",
+                      "content": "3 kyu",
+                      "fontFamily": "$font",
+                      "fontSize": 19,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "text",
+                      "id": "q6qdDS",
+                      "name": "Desc",
+                      "fill": "#5A7383",
+                      "content": "Algorithmic puzzles & katas",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bjHww",
+                  "name": "Speciality Card",
+                  "width": "fill_container",
+                  "height": 134,
+                  "fill": "$card",
+                  "cornerRadius": "$r-card",
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    18,
+                    20
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "g0DjKN",
+                      "name": "Label",
+                      "fill": "$muted",
+                      "content": "Speciality",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "WleRp",
+                      "name": "Title",
+                      "fill": "$ink",
+                      "content": "Frontend infrastructure",
+                      "fontFamily": "$font",
+                      "fontSize": 17,
+                      "fontWeight": "700",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "axZuQ",
+                      "name": "Chips",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "QbCB4",
+                          "name": "Pragmatic code",
+                          "fill": "#F5F5F7",
+                          "cornerRadius": 6,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Q804s",
+                              "name": "Pragmatic code",
+                              "fill": "$body",
+                              "content": "Pragmatic code",
+                              "fontFamily": "$font",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lZ8Gg",
+                          "name": "Performance",
+                          "fill": "#F5F5F7",
+                          "cornerRadius": 6,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "SGZYG",
+                              "name": "Performance",
+                              "fill": "$body",
+                              "content": "Performance",
+                              "fontFamily": "$font",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HAXjM",
+                      "name": "Chips",
+                      "gap": 5,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "uo79h",
+                          "name": "Architecture",
+                          "fill": "#F5F5F7",
+                          "cornerRadius": 6,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "NCua3",
+                              "name": "Architecture",
+                              "fill": "$body",
+                              "content": "Architecture",
+                              "fontFamily": "$font",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eoFqY",
+                          "name": "Mentorship",
+                          "fill": "#F5F5F7",
+                          "cornerRadius": 6,
+                          "stroke": "$border",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            8
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ZJ0HM",
+                              "name": "Mentorship",
+                              "fill": "$body",
+                              "content": "Mentorship",
+                              "fontFamily": "$font",
+                              "fontSize": 10,
+                              "fontWeight": "500"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XhSl9",
+              "name": "Status Bar",
+              "width": "fill_container",
+              "height": 54,
+              "fill": "$ink",
+              "cornerRadius": 16,
+              "padding": [
+                0,
+                22
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LTnuT",
+                  "name": "Availability",
+                  "gap": 9,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "g6X0Bo",
+                      "name": "Dot",
+                      "fill": "$green",
+                      "width": 7,
+                      "height": 7
+                    },
+                    {
+                      "type": "text",
+                      "id": "gjZ8G",
+                      "name": "Status",
+                      "fill": "#FFFFFF",
+                      "content": "AVAILABLE FOR WORK",
+                      "fontFamily": "$font",
+                      "fontSize": 10.5,
+                      "fontWeight": "700",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "yMIIK",
+                      "name": "Detail",
+                      "fill": "#8E8E93",
+                      "content": "Remote · frontend & infrastructure",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "EiX9h",
+                  "name": "Links",
+                  "gap": 9,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I4DvKU",
+                      "name": "Email",
+                      "fill": "#C7C7CC",
+                      "content": "Email",
+                      "fontFamily": "$font",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "YxYsm",
+                      "name": "Sep",
+                      "fill": "#48484A",
+                      "content": "·",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HQ4La",
+                      "name": "Telegram",
+                      "fill": "#C7C7CC",
+                      "content": "Telegram",
+                      "fontFamily": "$font",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "txHas",
+                      "name": "Sep",
+                      "fill": "#48484A",
+                      "content": "·",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "W2UAS",
+                      "name": "X",
+                      "fill": "#C7C7CC",
+                      "content": "X",
+                      "fontFamily": "$font",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "mtIIE",
+                      "name": "Sep",
+                      "fill": "#48484A",
+                      "content": "·",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iGjV3",
+                      "name": "LinkedIn",
+                      "fill": "#C7C7CC",
+                      "content": "LinkedIn",
+                      "fontFamily": "$font",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nd4wW",
+                      "name": "Sep",
+                      "fill": "#48484A",
+                      "content": "·",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hgsnl",
+                      "name": "CV",
+                      "fill": "#C7C7CC",
+                      "content": "CV",
+                      "fontFamily": "$font",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "RFVqQ",
+                      "name": "Sep",
+                      "fill": "#48484A",
+                      "content": "·",
+                      "fontFamily": "$font",
+                      "fontSize": 11.5,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cEQqh",
+                      "name": "artkost.dev",
+                      "fill": "#FFFFFF",
+                      "content": "artkost.dev",
+                      "fontFamily": "$font",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VqYM5",
+          "name": "Projects",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 18,
+          "children": [
+            {
+              "type": "frame",
+              "id": "xVJV9",
+              "name": "Section Header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NMfWO",
+                  "name": "Eyebrow Row",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "azSnX",
+                      "name": "Num",
+                      "fill": "#B0B0B5",
+                      "content": "01",
+                      "fontFamily": "$mono",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "text",
+                      "id": "o7Pfav",
+                      "name": "Eyebrow",
+                      "fill": "$muted",
+                      "content": "OPEN SOURCE",
+                      "fontFamily": "$font",
+                      "fontSize": 11,
+                      "fontWeight": "700",
+                      "letterSpacing": 1.1
+                    },
+                    {
+                      "type": "frame",
+                      "id": "hZP33",
+                      "name": "Rule",
+                      "width": "fill_container",
+                      "height": 1,
+                      "fill": "$border"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "t1hnAO",
+                  "name": "Title",
+                  "fill": "$ink",
+                  "content": "A few things I've made.",
+                  "fontFamily": "$font",
+                  "fontSize": 32,
+                  "fontWeight": "700",
+                  "letterSpacing": -1.1
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "n7x9ZR",
+              "name": "Project Grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$gap",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "QWTTE",
+                  "name": "Grid Row",
+                  "width": "fill_container",
+                  "gap": "$gap",
+                  "children": [
+                    {
+                      "id": "RX08h",
+                      "type": "ref",
+                      "ref": "vVGzz",
+                      "name": "2FAu",
+                      "width": "fill_container",
+                      "descendants": {
+                        "wQHnK": {
+                          "stroke": "#E0D7FB"
+                        },
+                        "DbFv4": {
+                          "content": "LOCAL-FIRST",
+                          "fill": "#7F5AF0"
+                        },
+                        "W6oAh": {
+                          "content": "🔐  2FAu"
+                        },
+                        "Yi5qB": {
+                          "content": "Free, open-source 2FA authenticator for macOS, Windows, Linux and the browser. A Rust core shared by a Tauri menu-bar app and a WASM extension — no account, no server, no tracking."
+                        },
+                        "xuGYW": {
+                          "stroke": "#E0D7FB"
+                        },
+                        "wjxzt": {
+                          "content": "rust"
+                        },
+                        "a2DHfU": {
+                          "stroke": "#E0D7FB"
+                        },
+                        "Lnxox": {
+                          "content": "tauri"
+                        },
+                        "V36TBP": {
+                          "stroke": "#E0D7FB"
+                        },
+                        "s0XC7U": {
+                          "content": "wasm"
+                        },
+                        "e8Xn8": {
+                          "content": "2fau.app  →",
+                          "fill": "#7F5AF0"
+                        }
+                      }
+                    },
+                    {
+                      "id": "gqsbb",
+                      "type": "ref",
+                      "ref": "vVGzz",
+                      "name": "oimg",
+                      "width": "fill_container",
+                      "descendants": {
+                        "wQHnK": {
+                          "stroke": "#D2EBE0"
+                        },
+                        "DbFv4": {
+                          "content": "BROWSER-NATIVE",
+                          "fill": "#17946A"
+                        },
+                        "W6oAh": {
+                          "content": "🖼️  oimg.app"
+                        },
+                        "Yi5qB": {
+                          "content": "Fast image optimizer that runs entirely in your browser. Compress and convert images without uploading them anywhere — your files never leave the tab."
+                        },
+                        "xuGYW": {
+                          "stroke": "#D2EBE0"
+                        },
+                        "wjxzt": {
+                          "content": "wasm"
+                        },
+                        "a2DHfU": {
+                          "stroke": "#D2EBE0"
+                        },
+                        "Lnxox": {
+                          "content": "typescript"
+                        },
+                        "V36TBP": {
+                          "stroke": "#D2EBE0"
+                        },
+                        "s0XC7U": {
+                          "content": "react"
+                        },
+                        "e8Xn8": {
+                          "content": "oimg.app  →",
+                          "fill": "#17946A"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AFMQ4",
+                  "name": "Grid Row",
+                  "width": "fill_container",
+                  "gap": "$gap",
+                  "children": [
+                    {
+                      "id": "XZW0C",
+                      "type": "ref",
+                      "ref": "vVGzz",
+                      "name": "gitmedit",
+                      "width": "fill_container",
+                      "descendants": {
+                        "wQHnK": {
+                          "stroke": "#F5E3C9"
+                        },
+                        "DbFv4": {
+                          "content": "TERMINAL",
+                          "fill": "#B4761B"
+                        },
+                        "W6oAh": {
+                          "content": "📝  gitmedit"
+                        },
+                        "Yi5qB": {
+                          "content": "Distraction-free git editor with nano-style shortcuts and context-aware modes for commit messages, merges and interactive rebase."
+                        },
+                        "xuGYW": {
+                          "stroke": "#F5E3C9"
+                        },
+                        "wjxzt": {
+                          "content": "rust"
+                        },
+                        "a2DHfU": {
+                          "stroke": "#F5E3C9"
+                        },
+                        "Lnxox": {
+                          "content": "tui"
+                        },
+                        "V36TBP": {
+                          "stroke": "#F5E3C9"
+                        },
+                        "s0XC7U": {
+                          "content": "git"
+                        },
+                        "e8Xn8": {
+                          "content": "github.com/JiLiZART/gitmedit  →",
+                          "fill": "#B4761B"
+                        }
+                      }
+                    },
+                    {
+                      "id": "JRl12",
+                      "type": "ref",
+                      "ref": "vVGzz",
+                      "name": "BBob",
+                      "width": "fill_container",
+                      "descendants": {
+                        "wQHnK": {
+                          "stroke": "#D5E5FA"
+                        },
+                        "DbFv4": {
+                          "content": "LIBRARY",
+                          "fill": "#1C6DD0"
+                        },
+                        "W6oAh": {
+                          "content": "⚡️  BBob"
+                        },
+                        "Yi5qB": {
+                          "content": "Blazing-fast BBCode parser. Transforms source to an AST, then to HTML, React or Vue. Plugin support and zero dependencies."
+                        },
+                        "xuGYW": {
+                          "stroke": "#D5E5FA"
+                        },
+                        "wjxzt": {
+                          "content": "javascript"
+                        },
+                        "a2DHfU": {
+                          "stroke": "#D5E5FA"
+                        },
+                        "Lnxox": {
+                          "content": "parser"
+                        },
+                        "V36TBP": {
+                          "stroke": "#D5E5FA"
+                        },
+                        "s0XC7U": {
+                          "content": "ast"
+                        },
+                        "e8Xn8": {
+                          "content": "github.com/JiLiZART/BBob  →",
+                          "fill": "#1C6DD0"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vVGzz",
+      "x": 0,
+      "y": -348,
+      "name": "Project Card",
+      "reusable": true,
+      "width": 482,
+      "height": 268,
+      "fill": "$card",
+      "cornerRadius": "$r-card",
+      "stroke": "$border",
+      "strokeWidth": 1,
+      "layout": "vertical",
+      "padding": 24,
+      "justifyContent": "space_between",
+      "children": [
+        {
+          "type": "frame",
+          "id": "T3XBHY",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 11,
+          "children": [
+            {
+              "type": "frame",
+              "id": "wQHnK",
+              "name": "Tag",
+              "fill": "#FFFFFF",
+              "cornerRadius": 20,
+              "stroke": "$border",
+              "strokeWidth": 1,
+              "padding": [
+                4,
+                9
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "DbFv4",
+                  "name": "Tag Text",
+                  "fill": "$body",
+                  "content": "LIBRARY",
+                  "fontFamily": "$font",
+                  "fontSize": 9.5,
+                  "fontWeight": "700",
+                  "letterSpacing": 0.8
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "W6oAh",
+              "name": "Title",
+              "fill": "$ink",
+              "content": "Project",
+              "fontFamily": "$font",
+              "fontSize": 22,
+              "fontWeight": "700",
+              "letterSpacing": -0.6
+            },
+            {
+              "type": "text",
+              "id": "Yi5qB",
+              "name": "Desc",
+              "fill": "$body",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Description",
+              "lineHeight": 1.5,
+              "fontFamily": "$font",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vGsr6",
+          "name": "Foot",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "children": [
+            {
+              "type": "frame",
+              "id": "JDI48",
+              "name": "Chips",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xuGYW",
+                  "name": "Chip 0",
+                  "fill": "#FFFFFFB3",
+                  "cornerRadius": 6,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "padding": [
+                    4,
+                    8
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wjxzt",
+                      "name": "Chip Text 0",
+                      "fill": "$body",
+                      "content": "tech",
+                      "fontFamily": "$mono",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "a2DHfU",
+                  "name": "Chip 1",
+                  "fill": "#FFFFFFB3",
+                  "cornerRadius": 6,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "padding": [
+                    4,
+                    8
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Lnxox",
+                      "name": "Chip Text 1",
+                      "fill": "$body",
+                      "content": "tech",
+                      "fontFamily": "$mono",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "V36TBP",
+                  "name": "Chip 2",
+                  "fill": "#FFFFFFB3",
+                  "cornerRadius": 6,
+                  "stroke": "$border",
+                  "strokeWidth": 1,
+                  "padding": [
+                    4,
+                    8
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "s0XC7U",
+                      "name": "Chip Text 2",
+                      "fill": "$body",
+                      "content": "tech",
+                      "fontFamily": "$mono",
+                      "fontSize": 10,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "e8Xn8",
+              "name": "Link",
+              "fill": "$accent",
+              "content": "link →",
+              "fontFamily": "$font",
+              "fontSize": 12.5,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": "#F5F5F7"
+    },
+    "card": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "border": {
+      "type": "color",
+      "value": "#E5E5EA"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#1D1D1F"
+    },
+    "body": {
+      "type": "color",
+      "value": "#3A3A3C"
+    },
+    "muted": {
+      "type": "color",
+      "value": "#6E6E73"
+    },
+    "js-yellow": {
+      "type": "color",
+      "value": "#F7DF1E"
+    },
+    "js-border": {
+      "type": "color",
+      "value": "#ECD200"
+    },
+    "accent": {
+      "type": "color",
+      "value": "#7F5AF0"
+    },
+    "green": {
+      "type": "color",
+      "value": "#2CB67D"
+    },
+    "font": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "mono": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "r-card": {
+      "type": "number",
+      "value": 22
+    },
+    "gap": {
+      "type": "number",
+      "value": 12
+    }
+  },
+  "fileToken": "d1d9d622-b4b7-489d-a92e-3505688e5159"
+}
