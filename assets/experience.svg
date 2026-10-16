@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="312" viewBox="0 0 840 312">
+  <foreignObject width="840" height="312">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="grid">
+      <style>
+        * { box-sizing: border-box; margin: 0; }
+        .grid {
+          display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: 150px 150px; gap: 12px; width: 840px;
+          font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          color: #1d1d1f; -webkit-font-smoothing: antialiased;
+        }
+        .card { border-radius: 22px; border: 1px solid #ececf0; padding: 20px 22px; display: flex; flex-direction: column; justify-content: flex-end; position: relative; grid-column: span 2; }
+        .wide { grid-column: span 3; }
+        .logo { position: absolute; top: 16px; right: 18px; width: 28px; height: 28px; border-radius: 8px; color: #fff; font-size: 12px; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+        h3 { font-size: 20px; font-weight: 700; letter-spacing: -.02em; margin-bottom: 6px; }
+        p { font-size: 12.5px; line-height: 1.5; color: #48484a; }
+      </style>
+      <div class="card wide" style="background:linear-gradient(135deg,#fff4ec,#fde9e0)">
+        <div class="logo" style="background:#3b82c4">H</div>
+        <h3>HodlHodl</h3>
+        <p>Reimagined frontend infrastructure on top of Next.js — faster builds, cleaner data layer, a design system that scales with the team.</p>
+      </div>
+      <div class="card wide" style="background:linear-gradient(135deg,#f3f5ff,#eef0fb)">
+        <div class="logo" style="background:#1d1d1f">◆</div>
+        <h3>Cube</h3>
+        <p>Helped build the UI Kit that backs Cube's SaaS, created a JSON to SQL tokenizer and visualizer.</p>
+      </div>
+      <div class="card" style="background:linear-gradient(135deg,#fdf1fb,#fbeef6)">
+        <div class="logo" style="background:#111">M</div>
+        <h3>Muse Group</h3>
+        <p>Improved Musescore &amp; Ultimate Guitar — tablature rendering &amp; BBCode pipelines from seconds to 15 ms.</p>
+      </div>
+      <div class="card" style="background:linear-gradient(135deg,#e9fafd,#e3f6fb)">
+        <div class="logo" style="background:#1aa3dc">S</div>
+        <h3>Skyeng</h3>
+        <p>Helped build learner-facing product surfaces for the CIS largest online English school.</p>
+      </div>
+      <div class="card" style="background:linear-gradient(135deg,#f0fcf4,#eaf8ef)">
+        <div class="logo" style="background:#2fa36b">ML</div>
+        <h3>Medialooks</h3>
+        <p>Designed single-page applications for streaming and media-production tooling.</p>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

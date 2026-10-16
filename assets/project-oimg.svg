@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="434" height="268" viewBox="0 0 434 268">
+  <foreignObject width="434" height="268">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="card">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        .card { width: 434px; height: 268px; border-radius: 22px; border: 1px solid #e5e5ea; background: #fff;
+          padding: 24px; display: flex; flex-direction: column; justify-content: space-between;
+          font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #1d1d1f; -webkit-font-smoothing: antialiased; }
+        .head, .foot { display: flex; flex-direction: column; }
+        .head { gap: 11px; }
+        .foot { gap: 14px; }
+        .tag { align-self: flex-start; font-size: 9.5px; font-weight: 700; letter-spacing: .8px; color: #17946a;
+          background: #fff; border: 1px solid #d2ebe0; border-radius: 20px; padding: 4px 9px; }
+        h3 { font-size: 22px; font-weight: 700; letter-spacing: -.6px; }
+        p { font-size: 13px; line-height: 1.5; color: #3a3a3c; font-weight: 400; }
+        .chips { display: flex; gap: 6px; }
+        .chips span { font-family: "JetBrains Mono", "SF Mono", ui-monospace, Menlo, Consolas, monospace; font-size: 10px; font-weight: 500; color: #3a3a3c;
+          background: rgba(255,255,255,.7); border: 1px solid #d2ebe0; border-radius: 6px; padding: 4px 8px; }
+        .link { font-size: 12.5px; font-weight: 600; color: #17946a; }
+      </style>
+      <div class="head">
+        <span class="tag">BROWSER-NATIVE</span>
+        <h3>🖼️  oimg.app</h3>
+        <p>Fast image optimizer that runs entirely in your browser. Compress and convert images without uploading them anywhere — your files never leave the tab.</p>
+      </div>
+      <div class="foot">
+        <div class="chips"><span>wasm</span><span>typescript</span><span>react</span></div>
+        <div class="link">oimg.app  →</div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

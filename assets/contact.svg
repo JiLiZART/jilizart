@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="250" viewBox="0 0 840 250">
+  <foreignObject width="840" height="250">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="wrap">
+      <style>
+        * { box-sizing: border-box; margin: 0; }
+        .wrap {
+          width: 840px; height: 250px; padding-top: 24px;
+          font-family: Inter, -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          color: #1d1d1f; -webkit-font-smoothing: antialiased;
+        }
+        .eyebrow { font-size: 11px; font-weight: 600; letter-spacing: .06em; color: #6e6e73; }
+        h2 { font-size: 36px; font-weight: 700; letter-spacing: -.035em; line-height: 1.1; margin: 10px 0 14px; }
+        p { font-size: 15px; line-height: 1.55; color: #3a3a3c; max-width: 520px; }
+        .btns { display: flex; gap: 10px; margin-top: 22px; }
+        .btn { font-size: 14px; font-weight: 600; padding: 11px 20px; border-radius: 12px; border: 1.5px solid #1f5eff; }
+        .primary { background: #1f5eff; color: #fff; }
+        .ghost { color: #1f5eff; }
+        @media (prefers-color-scheme: dark) {
+          .wrap { color: #f5f5f7; } .eyebrow { color: #a1a1a6; } p { color: #c7c7cc; }
+          .btn { border-color: #4d7fff; } .primary { background: #4d7fff; } .ghost { color: #8aa9ff; }
+        }
+      </style>
+      <div class="eyebrow">GET IN TOUCH</div>
+      <h2>Let's make something worth using.</h2>
+      <p>I'm taking on new frontend and infrastructure work. The fastest way to reach me is email or Telegram — I usually reply within a day.</p>
+      <div class="btns"><span class="btn primary">nk@artkost.dev</span><span class="btn ghost">Download CV</span></div>
+    </div>
+  </foreignObject>
+</svg>
